@@ -32,7 +32,7 @@ async function importStudents(filePath, className) {
   });
 }
 
-
+//save the student data in mongoDB
 
 
   console.log(`✅ Imported ${rows.length} students for ${className}`);
